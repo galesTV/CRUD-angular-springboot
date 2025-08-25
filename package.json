@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "set NODE_OPTIONS=--openssl-legacy-provider && ng serve",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && ng build",
-    "serve": "set NODE_OPTIONS=--openssl-legacy-provider && ng serve",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider ng serve",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider ng build",
+    "serve": "NODE_OPTIONS=--openssl-legacy-provider ng serve",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

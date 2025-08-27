@@ -31,7 +31,6 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -73,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "crud-angular:build:production"
+              "buildTarget": "crud-angular:build:production"
             },
             "development": {
-              "browserTarget": "crud-angular:build:development"
+              "buildTarget": "crud-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -84,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "crud-angular:build"
+            "buildTarget": "crud-angular:build"
           }
         },
         "test": {
@@ -100,7 +99,6 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -109,7 +107,6 @@
       }
     }
   },
-  "defaultProject": "crud-angular",
   "cli": {
     "analytics": "938f65d1-b76b-466f-a5c4-b630e9887f0d"
   }

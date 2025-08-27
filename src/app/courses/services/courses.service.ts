@@ -1,0 +1,47 @@
+import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+
+import { Course } from '../models/course';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class CoursesService {
+
+  constructor(private httpClient: HttpClient) { }
+
+  list(): Course[] {
+    return [
+      {
+        id: '1',
+        name: 'Angular',
+        category: 'Frontend'
+      },
+      {
+        id: '2',
+        name: 'React',
+        category: 'Frontend'
+      },
+      {
+        id: '3',
+        name: 'Vue',
+        category: 'Frontend'
+      },
+      {
+        id: '4',
+        name: 'NodeJS',
+        category: 'Backend'
+      },
+      {
+        id: '5',
+        name: 'Django',
+        category: 'Backend',
+      },
+      {
+        id: '6',
+        name: 'Flask',
+        category: 'Backend'
+      }
+    ];
+  }
+}

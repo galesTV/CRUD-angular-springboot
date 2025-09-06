@@ -2,31 +2,31 @@
   {
     "id": "1",
     "name": "Angular",
-    "category": "Frontend"
+    "category": "Front-end"
   },
   {
     "id": "2",
     "name": "React",
-    "category": "Frontend"
+    "category": "Front-end"
   },
   {
     "id": "3",
     "name": "Vue",
-    "category": "Frontend"
+    "category": "Front-end"
   },
   {
     "id": "4",
     "name": "NodeJS",
-    "category": "Backend"
+    "category": "Back-end"
   },
   {
     "id": "5",
     "name": "Django",
-    "category": "Backend"
+    "category": "Back-end"
   },
   {
     "id": "6",
     "name": "Flask",
-    "category": "Backend"
+    "category": "Back-end"
   }
 ]
